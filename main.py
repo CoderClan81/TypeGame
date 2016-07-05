@@ -38,7 +38,8 @@ while True:
         while e_c>0:
             act=-1
             ene=enemy.Enemy(l,health[l-1])
-            print('codenum: ',ene.codenum)
+            #print('codenum: ',ene.codenum)
+            usefuls.codePrin(ene.codenum)
 
             while (flag is 1) and (act is -1):
                 c=int(input(""))
