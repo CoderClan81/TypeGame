@@ -1,5 +1,6 @@
 import time
 from datetime import datetime
+import os
 
 def prin(lis):
     for l in lis:
@@ -15,3 +16,16 @@ def timecheck(da,w):
     n=datetime.now()
     s=(n-da).total_seconds()
     return int(m-s)
+    
+def codePrin(codenum)
+    os.system('cls')
+    print('')
+    print('-'*40)
+    for x in range (0,4)
+        print('')
+    print(' '*17,str(codenum))
+    for x in range (0,4)
+        print('')
+    print('-'*40)
+    time.sleep(2)
+
